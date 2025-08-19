@@ -1,5 +1,16 @@
 *{
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+
+.normalSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
 }
 
 .navBar {
@@ -9,14 +20,6 @@
   padding: 1rem;
 }
 
-.navBar h1 {
-  margin: 0;
-}
-
-.navBar nav {
-  display: flex;
-  gap: 1rem;
-}
 
 .Splash {
     background-image: url("./images/ronnie_ringo.png");
@@ -35,10 +38,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
-    width: 80vw;
+    height: 100vh;
+    width: 100vw;
 }
 
+.writing {
+    max-width: 80%;
+    margin: 80px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
 
 .cardsGrid {
   display: grid;
@@ -62,13 +74,17 @@
 }
 
 .usGrid div {
-  width: 300px;
   height: auto;
-  background-color:brown;
   display: block;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
     
 }
+
+.usGrid img {
+    width: 100%;
+}
+
