@@ -3,118 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- ↓↓↓ title, description, author name, keywords, og preview tags ↓↓↓ -->
+    <title>Oh look, a webpage</title>
+    <meta name="description" content="It shows stuff">
+    <meta name="author" content="Katy">
+    <meta name="keywords"
+    content="developer, fullstack, javascript developer, web and mobile developer portfolio, fullstack developer">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <meta property="og:title" content="Katy portfolio page">
+    <meta property="og:description" content="JavaScript Full-Stack Developer portfolio page with projects, contact information, experience and hourly rates">
+    <meta property="og:image" content="http://gk3000-portfolio.surge.sh/images/gk3000.jpg">
+    <meta property="og:url" content="http://gk3000-portfolio.surge.sh">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!-- Nav bar with 1 link on left and 4 links on right-->
+
+<!-- Nav bar with 1 link on left and 4 links on right-->
+    <section class ="navBar">
      <header>
         <h1>Custom card design</h1>
-        <nav>
+        <nav class>
             <a>Location</a>
             <a>Gallery</a>
             <a>About us</a>
             <a>Team</a>
         </nav>
      </header>
-    <!-- Main content-->
-     <main>
-    <!-- Splash screen with H1 & H2 and a button-->
-    <section>
+    </section>
+<!-- end of nav bar -->
+
+<!-- Main content-->
+    <main>
+
+<!-- Splash screen with H1 & H2 and a button-->
+    <section class = "Splash">
         <h1>Beautiful designs</h1>
         <h2>Made just for you</h2>
         <button>Take a look</button>
-        <img src="./images/ronnie_ringo.png">
     </section>
-    <!-- section location-->
-     <section>
-    <!-- H1 with some text-->
-     <h1>Come find us</h1>
-    <!-- button to the top-->
-     <button>Top</button>
-    <!-- interactive map-->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19148.598802199525!2d-0.4863906315527144!3d51.746423112188765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487641653b7c4a49%3A0xb6d7f78b9e99a90a!2sSainsbury&#39;s!5e0!3m2!1ses!2ses!4v1755508209267!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    
-    <!-- end of location section-->
-    <!-- 4 paragraphs-->
-    <p>
-    Welcome to Ellie's designs, where every card is made just for you! 
-    </p><p>
-    We specialize in custom, hand-crafted card designs for all occasions—birthdays, weddings, thank-yous, and everything in between. Whether you want something elegant, fun, or completely unique, we’ll bring your vision to life with personalized details and high-quality design. Make your message stand out with a card that’s as special as the moment.
-    </p><p>
-    Come check us out!
-    </p>
-    </section>
-    <!-- Gallery section-->
-    <section>
-    <!-- H1 with some text-->
-     <h1>Check out what we've made so far...</h1>
-    <!-- button to the top-->
-     <button>top</button>
-    <!-- 4 pictures with some responsive design-->
-     <img src="./images/card1.png">
-     <img src="./images/card2.png">
-     <img src="./images/card3.png">
-     <img src="./images/card4.png">
-     </section>
-    <!-- End of gallery section -->
+<!-- End splash screen-->
 
-    <!-- Our stuff -->
-     <section>
-    <!-- H1 and some text-->
-     <h1>About us</h1>
-    <!-- button to the top-->
-     <button>Top</button>
-    <!-- 4 articles in a grid - each with a header and a picture -->
-     <div> 
-        <h1>Some info about this picture</h1>
-        <img src="./images/card5.png">
-        <p>Here's a really lovely design</p>
-     </div>
-     <div> 
-        <h1>Some info about this picture</h1>
-        <img src="./images/card6.png">
-        <p>Here's a really lovely design</p>
-     </div>
-     <div> 
-        <h1>Some info about this picture</h1>
-        <img src="./images/card7.png">
-        <p>Here's a really lovely design</p>
-     </div>
-     <div> 
-        <h1>Some info about this picture</h1>
-        <img src="./images/card8.png">
-        <p>Here's a really lovely design</p>
-     </div>
+<!-- Location-->
+    <section class = "mapSection">
+        <h1>Come find us</h1>
+        <div class = "map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19148.598802199525!2d-0.4863906315527144!3d51.746423112188765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487641653b7c4a49%3A0xb6d7f78b9e99a90a!2sSainsbury&#39;s!5e0!3m2!1ses!2ses!4v1755508209267!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <button>Top</button>
     </section>
-    <!-- End of our stuff -->
-    <!-- Teams section-->
-    <!-- h1 and some text-->
-     <section>
-     <p>Meet the team!</p>
-    <!-- button with link to the top -->
-     <button>Top</button>
-    <!-- Images-->
-     <div>
-        <img src="./images/Ellie.png">
-        <img src="./images/whole_team.png">
-     </div>
+<!-- end of location section-->
+
+<!-- Text section-->
+    <section>
+        <p>Welcome to Ellie's designs, where every card is made just for you! </p>
+        <p>We specialize in custom, hand-crafted card designs for all occasions—birthdays, weddings, thank-yous, and everything in between. Whether you want something elegant, fun, or completely unique, we’ll bring your vision to life with personalized details and high-quality design. Make your message stand out with a card that’s as special as the moment.</p>
+        <p>Come check us out!</p>
+    </section>
+<!-- end of text section-->
+
+<!-- Gallery section-->
+    <section>
+        <h1>Check out what we've made so far...</h1>
+        <button>top</button>
+        <section class = "cardsGrid">
+            <img src="./images/card_1.png">
+            <img src="./images/card_2.png">
+            <img src="./images/card_3.png">
+            <img src="./images/card_4.png">
+            <img src="./images/card_5.png">
+            <img src="./images/card_6.png">
+            <img src="./images/card_7.png">
+            <img src="./images/card_8.png">
+        </section>
      </section>
-    <!-- End of teams section -->
-    <!-- End of main content-->
+<!-- End of gallery section -->
+
+<!-- Teams section-->
+     <section class = "usPics">
+        <h1>About us</h1>
+        <button>Top</button>
+        <section class = "usGrid">
+            <div> 
+                <h1>Ellie</h1>
+                <img src="./images/Ellie.png">
+            <p>Here's the woman herself</p>
+            </div>
+            <div> 
+                <h1>The whole team</h1>
+                <img src="./images/whole_team.png">
+                <p>Here's the whole team</p>
+            </div>
+        </section>
+    </section>
+<!-- End of teams section -->
+
+
+<!-- End of main content-->
     </main>
 
-    <!-- Footer -->
-    <!-- info on business and link to top-->
-     <footer>
-     <div>
-        <p>Eleanor Hart incorporated</p>
-        <button></button>
-     </div>
-    <!-- hyperlink to phone number-->
-     <p>Contact us @ +44 7597 339 174</p>
-    <!-- some more text-->
-     <p>Open to all requests no matter how strange!</p>
-    <!-- end of footer-->
+<!-- Footer -->
+    <footer>
+        <div>
+            <p>Eleanor Hart incorporated</p>
+            <button></button>
+        </div>
+        <p>Contact us @ +44 7597 339 174</p>
+        <p>Open to all requests no matter how strange!</p>
     </footer>
 </body>
 </html>
