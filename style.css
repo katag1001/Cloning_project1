@@ -1,7 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: transparent;
+
 }
 
 .normalSection {
@@ -10,6 +15,7 @@
     justify-content: center;
     align-items: center;
     width: 100%
+    margin-bottom: 20px;
 }
 
 .navBar {
@@ -17,6 +23,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  border-style: dashed;
+  border-color:navajowhite;
+}
+
+.navBar img {
+    height: 30px;
 }
 
 a{
@@ -29,8 +41,8 @@ a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
-    height: 100vh;
     display: flex;
+    height: 400px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -48,6 +60,8 @@ a{
     border-radius: 8px;
     font-size: 1.1em;
     line-height: 1.8;
+    border-style: dashed;
+    border-color:navajowhite;
 }
 
 .cardsGrid {
@@ -55,6 +69,7 @@ a{
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-content: center;
+  margin-top: 20px;
 }
 
 .cardsGrid img {
@@ -86,3 +101,10 @@ a{
     width: 100%;
 }
 
+@media all and (max-width: 800px){
+    .navBar{
+        display: flex;
+        flex-direction:column;
+
+    }
+}
