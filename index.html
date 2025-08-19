@@ -26,10 +26,9 @@
      <header  class = "navBar">
         <h1>Custom card design</h1>
         <nav>
-            <a>Location</a>
-            <a>Gallery</a>
-            <a>About us</a>
-            <a>Team</a>
+            <a href="#location">Location</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#team">Team</a>
         </nav>
      </header>
     </section>
@@ -42,20 +41,22 @@
     <section class = "Splash">
         <h1>Beautiful designs</h1>
         <h2>Made just for you</h2>
-        <button>Take a look</button>
+        <a href="#gallery">Take a look</a>
     </section>
 <!-- End splash screen-->
 
 <!-- Location-->
-    <section class = "mapSection">
+    <section class = "normalSection" id = "location">
         <h1>Come find us</h1>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19148.598802199525!2d-0.4863906315527144!3d51.746423112188765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487641653b7c4a49%3A0xb6d7f78b9e99a90a!2sSainsbury&#39;s!5e0!3m2!1ses!2ses!4v1755508209267!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <button>Top</button>
+        <a href="#top">Top</a>
+        <section class = "map"></section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19148.598802199525!2d-0.4863906315527144!3d51.746423112188765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487641653b7c4a49%3A0xb6d7f78b9e99a90a!2sSainsbury&#39;s!5e0!3m2!1ses!2ses!4v1755508209267!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
     </section>
 <!-- end of location section-->
 
 <!-- Text section-->
-    <section class = "writing">
+    <section class = "writing" id = "descriptionText">
         <p>Welcome to Ellie's designs, where every card is made just for you! </p>
         <p>We specialize in custom, hand-crafted card designs for all occasions—birthdays, weddings, thank-yous, and everything in between. Whether you want something elegant, fun, or completely unique, we’ll bring your vision to life with personalized details and high-quality design. Make your message stand out with a card that’s as special as the moment.</p>
         <p>Come check us out!</p>
@@ -63,10 +64,10 @@
 <!-- end of text section-->
 
 <!-- Gallery section-->
-    <section>
+    <section id = "gallery">
         <section class ="normalSection">
-            <button>Top</button>
             <h1>Check out what we've made so far...</h1>
+            <a href="#top">Top</a>
         </section>
         <section class = "cardsGrid">
             <img src="./images/card_1.png">
@@ -84,9 +85,9 @@
 
 <!-- Teams section-->
      <section>
-        <section class ="normalSection">
+        <section class ="normalSection" id ="team">
             <h1>About us</h1>
-            <button>Top</button>
+            <a href="#top">Top</a>
         </section>
         <section class = "usGrid">
             <div> 
